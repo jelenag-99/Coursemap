@@ -1,0 +1,251 @@
+body {
+    background-image: linear-gradient(to right, lightcyan, yellow)
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.noviAdministratori {
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.odjava {
+    display: block;
+    text-align: right;
+    float: right;
+}
+
+.korisnik {
+    display: block;
+    text-align: left;
+    float: left;
+}
+
+label {
+    color: orange;
+    text-align: left;
+}
+
+.slika {
+    float: left;
+    width: 15%;
+}
+
+.divLijevi {
+    padding: 2%;
+    width: 90%;
+    border: 2px deepskyblue solid;
+    text-align: center;
+    scroll-behavior: auto;
+}
+
+.divCentar {
+    padding: 2%;
+    width: 92%;
+    border: 5px white solid;
+    height: fit-content;
+}
+
+.divDesni {
+    padding: 2%;
+    width: 95%;
+    border: 5px white solid;
+    height: fit-content;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    color: orange;
+    text-align: center;
+}
+
+.odobravanje {
+    display: block;
+    width: 90%;
+    height: 5vh;
+    text-align: center;
+    color: yellow;
+    border: 2px deepskyblue solid;
+    background-color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 5vh;
+}
+
+button {
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+    background-color: white;
+    border: none;
+}
+
+div[id^='sedmica']{
+    border: 2px darkorange solid;
+    margin: 5px;
+    padding: 5px;
+    color: deepskyblue;
+}
+
+.adminButton {
+    height: 5vh;
+    line-height: 5vh;
+    display: block;
+    width: 90%;
+    color: yellow;
+    border: 2px white solid;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px;
+    text-align: center;
+}
+
+.korisnikLink {
+    display: block;
+    height:fit-content;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    color: yellow;
+    border: 2px deepskyblue solid;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px;
+    text-align: center;
+}
+
+.status {
+    float: right;
+}
+
+.kurs {
+    display: inline-block;
+    padding: 2%;
+    width: 15%;
+    margin: 5px;
+    height: 300px;
+    text-align: center;
+    vertical-align: top;
+    background-color: white;
+    position: relative;
+}
+
+.upis {
+    width: 50%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 2%;
+    right: 25%;
+    line-height: 5vh;
+    text-align: center;
+    height: 5vh;
+    color: yellow;
+    border: 2px deepskyblue solid;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[id^='chb']{
+    background-color: deepskyblue;
+}
+
+.chbZavrsen {
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 18px;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    vertical-align: top;
+}
+
+input {
+    height: 5vh;
+    width: 90%;
+    border: 2px deepskyblue solid;
+    color: orange;
+    background-color: white;
+}
+
+.pretraga {
+    text-align: center;
+    border: 2px deepskyblue solid;
+}
+
+.sedmica{
+    text-align: left;
+}
+
+.materijalLink {
+    height: 5vh;
+    line-height: 5vh;
+    display: block;
+    width: 90%;
+    color: yellow;
+    border: 2px deepskyblue solid;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px;
+    text-align: center;
+}
+
+.dodajMaterijalTd {
+    vertical-align: center;
+    text-align: right;
+    margin: 0;
+}
+
+ul {
+    background-color: white;
+    width: 97%;
+    border-collapse: collapse;
+}
+
+li {
+    width: 20%;
+    height: 5vh;
+    line-height: 5vh;
+    display: inline-block;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.imgZavrsen {
+    border: 1px deepskyblue solid;
+    border-radius: 50%;
+}
+
+.tdZavrsen {
+    text-align: center;
+}

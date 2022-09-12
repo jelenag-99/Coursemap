@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to right, lightcyan, yellow);
+}
+
+body {
+    padding: 3%;
+}
+
+h1 {
+    font-style: italic;
+    color: orange;
+    text-align: center;
+}
+
+#prijavaNaslov {
+    font-size: 50px;
+}
+
+#registracijaNaslov {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    text-align: center;
+    font-size: 20px;
+}
+
+input , select{
+    height: 5vh;
+    width: 55%;
+    border: 1px deepskyblue solid;
+}
+
+label {
+    line-height: 5vh;
+    height: 5vh;
+    color: orange;
+    margin: 2%;
+    width: 50%;
+}
+
+button {
+    height: 7vh;
+    font-size: 18px;
+    color: deepskyblue;
+    width: 40%;
+    border: 2px orange solid;
+}
+
+.forma {
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    border: 2px deepskyblue solid;
+}
+
+img {
+    display: block;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.divLijevi {
+    width: 100%;
+}
+
+.divDesni {
+    width: 100%;
+    horiz-align: center;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+}
